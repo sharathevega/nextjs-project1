@@ -28,13 +28,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="container-scroller">
-          <Navbar />
-          <div className="container-fluid page-body-wrapper">
-            <Sidebar />
-            {children}
-            <Footer />
-          </div>
+        <div>
+
+          {children}
 
         </div>
       </body>
